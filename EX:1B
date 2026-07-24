@@ -1,3 +1,5 @@
+#INPUT
+
 def findgcd(a,b):
     if a<b:
         a,b=b,a
@@ -20,3 +22,19 @@ else:
     print("\n the encryption parameter are coprime:")
     print("communication setup rejected")
     print("choose different encryption parameters")
+
+#OUTPUT
+
+
+===secure communication key validation===
+enter the 1st encryption parameter:23
+enter the  2nd encryption parameter:7
+
+steps of euclidan algorithm:
+23/7=quotient3, Remiander 2
+7/2=quotient3, Remiander 1
+2/1=quotient2, Remiander 0
+gcd= 1
+
+ the encryption parameter are coprime:
+secure communication can be established
