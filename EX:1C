@@ -1,3 +1,6 @@
+#INPUT
+
+
 print("==============================")
 print("MODULAR ARITHMETIC CALCULATOR")
 print("==============================")
@@ -36,3 +39,34 @@ else:
             break
         else:
             print("\n invalid choice! please select between 1 and 5")
+
+
+#OUTPUT
+
+==============================
+MODULAR ARITHMETIC CALCULATOR
+==============================
+Enter the 1st Integer (a): 11
+Enter the 2nd Integer (b): 4
+Enter the Modulus (m): 2
+
+======MENU======
+1.modular addition
+2.modular subtraction
+3.modular multiplication
+4.modular exponentiation
+5.exit
+enter your choice(1-5):1
+
+Modular Addition
+(11+4)mod2=1
+
+======MENU======
+1.modular addition
+2.modular subtraction
+3.modular multiplication
+4.modular exponentiation
+5.exit
+enter your choice(1-5):5
+
+ Exiting the program
