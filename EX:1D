@@ -1,3 +1,5 @@
+#INPUT
+
 print("=============================")
 print("RSA prime validation using fermat's test")
 print("=============================")
@@ -18,3 +20,20 @@ else:
         print("\n The number does not satisfy fermats's little theorem")
         print("it is composite.")
         print("candidate is not suitable for rsa key generation")
+        
+
+#OUTPUT
+
+
+=============================
+RSA prime validation using fermat's test
+=============================
+enter the value of a:23
+enter the candidate prime number(p):13
+
+Result of fermat test
+(23^12)mod13=1
+
+ the number satisfies fermat's little theorem
+it is a probable prime
+candidate is suitable for further RSA key generation
