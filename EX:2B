@@ -1,3 +1,5 @@
+INPUT :
+
 p=7
 q=11
 seed=16
@@ -21,4 +23,17 @@ else:
         print("Random number=", x,"Output bit=",bit)
 print("\n Bit stream=","".join(map(str,bits)))
 '''import sys
-print(sys.version)''
+print(sys.version)'''
+
+
+OUTPUT:
+
+Blum Blum Shub Generator
+---------------------------
+Random number= 25 Output bit= 1
+Random number= 9 Output bit= 1
+Random number= 4 Output bit= 0
+Random number= 16 Output bit= 0
+Random number= 25 Output bit= 1
+
+ Bit stream= 11001
