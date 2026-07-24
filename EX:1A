@@ -1,3 +1,6 @@
+#INPUT
+
+
 def isPrime(n):
     if n<=1:
         return False
@@ -21,3 +24,15 @@ if isPrime(p) and isPrime(q):
 else:
     print("\nInvalid Prime Number(s).")
     print("RSA Key Generation Aborted.")
+
+
+
+#OUTPUT
+
+Enter the first number (p): 41
+Enter the second number (q): 9
+41 is a Prime Number.
+9 is NOT a Prime Number.
+
+Invalid Prime Number(s).
+RSA Key Generation Aborted.
