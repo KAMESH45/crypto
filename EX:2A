@@ -1,3 +1,5 @@
+INPUT:
+
 seed=3
 a=5
 c=2
@@ -6,9 +8,22 @@ n=5
 sequence=[seed]
 x=seed
 print("Linear Congruential Generator")
-print("------------------------------")
+print("--------------------------------")
 for i in range(1,n+1):
     x=(a*x+c)%m
     sequence.append(x)
     print(x)
-print("\nGenerated Sequence:",sequence)
+print("\nGenerated Sequence :",sequence)
+
+
+OUTPUT :
+
+Linear Congruential Generator
+--------------------------------
+4
+9
+8
+3
+4
+
+Generated Sequence : [3, 4, 9, 8, 3, 4]
